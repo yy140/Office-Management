@@ -41,15 +41,15 @@ I would like my meeting room to have a name
 ```
 
 ```
-As a staff member
-So that my staff can coordinate meetings
-I would like to add a meeting room to my office
+As an office manager
+So that staff can coordinate meetings
+I would like to add a meeting room to the office
 ```
 
 ```
-As a staff member
-So that my staff can coordinate meetings
-I would like to list all the meeting rooms in my office
+As an office manager
+So that I can manage meeting rooms
+I would like to list all the meeting rooms in the office
 ```
 
 ```
@@ -63,12 +63,12 @@ I would like to be able to see a list of available rooms in the office
 ```
 As an office manager
 So that I can find out when a room becomes available
-I would like to receive a text message when a meeting room becomes available again
+I would like to receive a text message whenever a meeting room becomes available again
 ```
 
 ```
 As an office manager
-So that I can have visibility of how the rooms are being used,
+So that I can have visibility of how the rooms are being used
 I would like to see the name of the meeting and the name of the team that is using the room
 ```
 
