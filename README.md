@@ -11,49 +11,49 @@
 
 ## Task:
 ```
-As an staff member,
+As a staff member
 In order to have meeting,
 I would like to check if the meeting room is available or not (true or false)
 ```
 
 ```
-As an staff manager,
+As a staff member
 In order to have a meeting,
 I would like to be able to enter the meeting room and this should make it unavailable
 ```
 
 ```
-As a staff member,
+As a staff member
 In order to end a meeting
 I would like to be able to leave the meeting room and this should make it available again
 ```
 
 ```
-As a staff member,
+As a staff member
 So that I can avoid interrupting a meeting
 I would like an error if I try to use a room that has already been entered
 ```
 
 ```
-As a staff manager,
+As a staff member
 In order to distinguish between meeting rooms
 I would like my meeting room to have a name
 ```
 
 ```
-As a staff manager
+As a staff member
 So that my staff can coordinate meetings
 I would like to add a meeting room to my office
 ```
 
 ```
-As a staff manager
+As a staff member
 So that my staff can coordinate meetings
 I would like to list all the meeting rooms in my office
 ```
 
 ```
-As a staff member,
+As a staff member
 So that I can see where to have my meeting
 I would like to be able to see a list of available rooms in the office
 ```
@@ -61,15 +61,15 @@ I would like to be able to see a list of available rooms in the office
 #### Stretch user stories
 
 ```
-As an office manager,
+As an office manager
 So that I can find out when a room becomes available
-I would like to receive a text message when a meeting room becomes available again.
+I would like to receive a text message when a meeting room becomes available again
 ```
 
 ```
-As an office manager,
+As an office manager
 So that I can have visibility of how the rooms are being used,
-I would like to see the name of the meeting and the name of the team that is using the room.
+I would like to see the name of the meeting and the name of the team that is using the room
 ```
 
 * Hints on stretch functionality to implement:
