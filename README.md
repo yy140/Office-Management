@@ -35,7 +35,7 @@ I would like an error if I try to use a room that has already been entered
 ```
 
 ```
-As an staff manager,
+As a staff manager,
 In order to distinguish between meeting rooms
 I would like my meeting room to have a name
 ```
