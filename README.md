@@ -3,8 +3,10 @@
 ## Instructions:
 * Challenge time: until the end of the day
 * Feel free to use google, your notes, books etc but please work on your own
-* Please raise a pull request with how far you get at the end of the day
+* Please raise a pull request when you start this challenge, and keep pushing updates as and when you make commits throughout the day
 * There is *no expectation* to finish all or any of the user stories, please use this time to reflect on where you feel you are with the skill and what may support your learning.
+* If you get blocked, please reflect on what blocked you and any strategies you adopted that helped you make progress. 
+
 
 
 ## Task:
@@ -21,7 +23,7 @@ I would like to be able to enter the meeting room and this should make it unavai
 ```
 
 ```
-As an office manager,
+As a staff member,
 In order to end a meeting
 I would like to be able to leave the meeting room and this should make it available again
 ```
@@ -33,19 +35,19 @@ I would like an error if I try to use a room that has already been entered
 ```
 
 ```
-As an office manager,
+As an staff manager,
 In order to distinguish between meeting rooms
 I would like my meeting room to have a name
 ```
 
 ```
-As an office manager
+As an staff manager
 So that my staff can coordinate meetings
 I would like to add a meeting room to my office
 ```
 
 ```
-As an office manager
+As an staff manager
 So that my staff can coordinate meetings
 I would like to list all the meeting rooms in my office
 ```
@@ -84,3 +86,4 @@ In code review we'll be hoping to see:
   * All tests passing
   * High [Test coverage](https://github.com/makersacademy/course/blob/master/pills/test_coverage.md) (>95% is good)
   * The code is elegant: every class has a clear responsibility, methods are short etc.
+  * Commits are regular and scoped
