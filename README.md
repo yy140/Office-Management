@@ -41,13 +41,13 @@ I would like my meeting room to have a name
 ```
 
 ```
-As an staff manager
+As a staff manager
 So that my staff can coordinate meetings
 I would like to add a meeting room to my office
 ```
 
 ```
-As an staff manager
+As a staff manager
 So that my staff can coordinate meetings
 I would like to list all the meeting rooms in my office
 ```
