@@ -5,7 +5,7 @@
 * Feel free to use google, your notes, books etc but please work on your own
 * Please raise a pull request when you start this challenge, and keep pushing updates as and when you make commits throughout the day
 * There is *no expectation* to finish all or any of the user stories, please use this time to reflect on where you feel you are with the skill and what may support your learning.
-* If you get blocked, please reflect on what blocked you and any strategies you adopted that helped you make progress. 
+* If you get blocked, please reflect on what blocked you and any strategies you adopted that helped you make progress.
 
 
 
@@ -73,12 +73,16 @@ I would like to see the name of the meeting and the name of the team that is usi
 ```
 
 * Hints on stretch functionality to implement:
-  * The text sending functionality should be implemented using Twilio API. You'll need to register for it. It’s free.
-  * Use the twilio-ruby gem to access the API
-  * Use the Gemfile to manage your gems
-  * Try and make use of mocks and/or stubs so that actual texts don't get sent when your tests are run
-  * However, if your code is loaded into IRB the text should actually be sent
-  * Note that you can only send texts in the same country as you have your account. I.e. if you have a UK account you can only send to UK numbers.
+* The text sending functionality should be implemented using [Twilio API](https://www.twilio.com/docs/usage/api). You'll need to register for it. It’s free.
+* Use the `twilio-ruby` gem to access the API
+* Use the `Gemfile` to manage your gems
+* Try and make use of mocks and/or stubs so that actual texts don't get sent when your tests are run
+* However, if your code is loaded into IRB the text should actually be sent
+* Note that you can only send texts in the same country as you have your account. I.e. if you have a UK account you can only send to UK numbers.
+
+> :warning: **WARNING:** think twice before you push your **mobile number** or **Twilio API Key** to a public space like GitHub :eyes:
+>
+> :key: Now is a great time to think about security and how you can keep your private information secret. You might want to explore environment variables.
 
 ### Code Review
 In code review we'll be hoping to see:
