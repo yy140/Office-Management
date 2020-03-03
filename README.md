@@ -7,7 +7,11 @@
 * There is *no expectation* to finish all or any of the user stories, please use this time to reflect on where you feel you are with the skill and what may support your learning.
 * If you get blocked, please reflect on what blocked you and any strategies you adopted that helped you make progress.
 
-
+## Set up:
+* Fork the repo to your github repo
+* Clone the project from your github repo to your machine
+* cd office-management-challenge
+* bundle install
 
 ## Task:
 ```
