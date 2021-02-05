@@ -1,7 +1,8 @@
 class MeetingRoom
   attr_reader :available
-  def initialize
-    @available  
+  def initialize(name)
+    @available
+    @name
   end
   
   def available?
@@ -9,6 +10,7 @@ class MeetingRoom
   end
 
   def enter
+    raise "Cannot enter. Meeting in progress" if available == false
     @available = false
   end
 
