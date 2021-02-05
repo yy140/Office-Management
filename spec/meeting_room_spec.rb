@@ -8,4 +8,10 @@ describe MeetingRoom do
     end
   end
 
+  describe '#enter' do
+    it 'enters meeting room and make it unavilable' do
+      expect { subject.enter }.to change { subject.available }.to false
+    end
+  end
+  
 end
