@@ -1,7 +1,8 @@
 require 'meeting_room'
-
+require 'office'
 describe MeetingRoom do
-  let(:subject) {described_class.new(name:"Introductions")}
+  let(:subject) { described_class.new("Introductions") }
+  let(:office) {double :office}
 
   it 'meeting room to have a name' do
     expect(subject.name).to eq("Introductions")
@@ -31,4 +32,5 @@ describe MeetingRoom do
     end
   end
 
+  
 end

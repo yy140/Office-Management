@@ -1,8 +1,8 @@
 class MeetingRoom
-  attr_reader :available
+  attr_reader :available, :name
   def initialize(name)
     @available
-    @name
+    @name = name
   end
   
   def available?
