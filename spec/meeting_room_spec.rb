@@ -9,9 +9,15 @@ describe MeetingRoom do
   end
 
   describe '#enter' do
-    it 'enters meeting room and make it unavilable' do
+    it 'enters meeting room and make it unavailable' do
       expect { subject.enter }.to change { subject.available }.to false
     end
   end
-  
+
+  describe '#leave' do
+    it 'makes meeting room available when leave meeting' do
+      expect {subject.leave}. to change { subject.available}.to true
+    end
+  end
+
 end

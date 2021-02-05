@@ -7,4 +7,12 @@ class MeetingRoom
   def available?
     @available = true
   end
+
+  def enter
+    @available = false
+  end
+
+  def leave
+    @available = true
+  end
 end
